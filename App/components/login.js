@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 import AppButton from './button';
-//import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 function Login(props) {
@@ -15,12 +15,12 @@ function Login(props) {
     <View style={styles.login}>
       <Image style={styles.windowLogo} source={require('../assets/images/window-logo.png')} />
       <View style={styles.field}>
-        {/* <Icon name="user" size={20} color="#666" /> */}
+        <Icon name="user" size={20} color="#999" />
         <TextInput placeholder="Email..." placeholderTextColor="#999" style={styles.input} />
       </View>
       
       <View style={styles.field}>
-        {/* <Icon name="lock" size={20} color="#666" /> */}
+        <Icon name="lock" size={20} color="#999" />
         <TextInput placeholder="Password" placeholderTextColor="#999" style={styles.input} secureTextEntry={true} />
       </View>
       
